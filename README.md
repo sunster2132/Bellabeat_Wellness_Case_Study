@@ -92,7 +92,7 @@ ggplot(data = Individual_Daily_Sleep_Summary) +
   geom_smooth(mapping = aes(x = Id, y = average_daily_sleep)) +
   labs(title = "Average Daily Sleep Per Person")
 
-![plota](https://github.com/sunster2132/Bellabeat_Wellness_Case_Study/assets/127167784/49a57593-3fcd-4ae3-80ce-2a16eae33f2e)
+![plot 1](plota.jpeg)
 
 ggplot(data = Individual_Daily_Sleep_Summary) +
   geom_line(mapping = aes(x = Id, y = average_daily_sleep)) +
@@ -103,7 +103,7 @@ ggplot(data = Individual_Daily_Sleep_Summary) +
        y = "Time (mins)") +
   guides( color = guide_legend( title = "legend"))
 
-![plotb](https://github.com/sunster2132/Bellabeat_Wellness_Case_Study/assets/127167784/959a1876-04da-4e5a-b9be-d79f330271fb)
+![plot 2](plotb.jpeg)
 
 ```
 
