@@ -92,7 +92,7 @@ ggplot(data = Individual_Daily_Sleep_Summary) +
   geom_smooth(mapping = aes(x = Id, y = average_daily_sleep)) +
   labs(title = "Average Daily Sleep Per Person")
 
-![plot 1](plot1b.jpeg)
+
 
 ggplot(data = Individual_Daily_Sleep_Summary) +
   geom_line(mapping = aes(x = Id, y = average_daily_sleep)) +
