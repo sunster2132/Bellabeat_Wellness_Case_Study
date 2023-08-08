@@ -92,7 +92,7 @@ ggplot(data = Individual_Daily_Sleep_Summary) +
   geom_smooth(mapping = aes(x = Id, y = average_daily_sleep)) +
   labs(title = "Average Daily Sleep Per Person")
 ```
-![plot 1](plota.jpeg)
+![plot b](plotb.jpeg)
 
 ```{r}
 ggplot(data = Individual_Daily_Sleep_Summary) +
@@ -103,10 +103,9 @@ ggplot(data = Individual_Daily_Sleep_Summary) +
        x = "ID of each person",
        y = "Time (mins)") +
   guides( color = guide_legend( title = "legend"))
-
-![plot 2](plotb.jpeg)
-
 ```
+![plot a](plota.jpeg)
+
 
 ## Reccomendations Based on Analysis
 So, based on my analysis consumers do not log their every move using the FitBit. However, when they go to sleep it shows that within a few minutes, the consumer falls asleep. This has proven Fitbit to be accurate. Going forward, my recommendation for Bellabeat is that in their marketing campaign they should focus on their products accuracy at identifying sleep patterns and other health information.
